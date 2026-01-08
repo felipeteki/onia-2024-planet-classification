@@ -71,4 +71,7 @@ A tabela abaixo demonstra visualmente o ganho de performance entre o modelo inic
 | :---: | :---: |
 | ![v1 Baseline](./confusion_matrix_v1_baseline.png) | ![v2 Optimized](./confusion_matrix_v2_optimized.png) |
 
-> **Análise Técnica:** A versão atual (v2) atingiu **91.87% de F
+> **Análise Técnica:** A versão atual (v2) atingiu **91.87% de F1-Score**, superando significativamente o baseline de 2024. A implementação do **SMOTE** corrigiu o desbalanceamento das classes planetárias, enquanto o **GridSearchCV** refinou os hiperparâmetros do XGBoost para garantir precisão máxima mesmo em classes minoritárias. A concentração dos acertos na diagonal principal da matriz v2 reflete a robustez do pipeline atual.
+
+---
+**Developed by [Felipe Teki](https://www.linkedin.com/in/felipeteki/)**
