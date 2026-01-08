@@ -10,10 +10,8 @@ Professional machine learning pipeline developed for the **1st National Artifici
 * **Status:** `predicoes.csv` successfully generated for final submission.
 
 ## 🛠️ Technical Stack & Advanced Methods
-* **Core:** Python, Pandas, Numpy.
-* **Visualization:** Matplotlib, Seaborn.
 * **Machine Learning:** Scikit-Learn, XGBoost, LightGBM.
-* **Class Imbalance:** Applied **SMOTE** (Synthetic Minority Over-sampling Technique) to ensure model fairness across all 5 classes.
+* **Class Imbalance:** Applied **SMOTE** to ensure model fairness across all 5 classes.
 * **Model Architecture:** **Stacking Classifier** (Ensemble) and **XGBoost** optimized via **GridSearchCV**.
 * **Software Engineering:** Implementation of dynamic path handling (`os` library) for cross-environment portability.
 
@@ -51,17 +49,26 @@ Pipeline profissional de Machine Learning desenvolvido para a **1ª Olimpíada N
 * **Status:** Arquivo `predicoes.csv` gerado com sucesso para submissão final.
 
 ## 🛠️ Tecnologias e Métodos Avançados
-* **Core:** Python, Pandas, Numpy.
 * **Machine Learning:** Scikit-Learn, XGBoost, LightGBM.
 * **Tratamento de Dados:** Aplicação de **SMOTE** para balanceamento de classes minoritárias e **StandardScaler** para normalização.
-* **Arquitetura do Modelo:** **Stacking Classifier** (Ensemble) e **XGBoost** de alta performance.
-* **Otimização:** Busca exaustiva de hiperparâmetros via **GridSearchCV** com Validação Cruzada (K-Fold).
+* **Arquitetura:** **Stacking Classifier** (Ensemble) e **XGBoost** de alta performance.
+* **Otimização:** Busca exaustiva de hiperparâmetros via **GridSearchCV** (K-Fold).
+* **Engenharia de Software:** Gerenciamento dinâmico de diretórios para garantir portabilidade entre diferentes ambientes.
+
+## 🚀 Como Executar
+1. Clone este repositório.
+2. Certifique-se de que os arquivos `treino.csv` e `teste.csv` estejam no mesmo diretório.
+3. Instale as dependências: `pip install -r requirements.txt`
+4. Execute: `python desafiooniafinalizado.py`
 
 ## 🧠 Evolução Técnica e Comparação
 Este repositório documenta a evolução de modelos simples para arquiteturas robustas. 
 
 ### Melhoria do Modelo (v1 vs v2)
-A tabela acima demonstra visualmente o ganho de performance. A **v1 (2024)** apresentava maior dispersão de erros, enquanto a **v2 (Otimizada)** concentra a grande maioria das predições na diagonal principal (acertos), atingindo o patamar de excelência técnica exigido pela ONIA.
+A tabela abaixo demonstra visualmente o ganho de performance entre o modelo inicial e o atual:
 
----
-**Developed by [Felipe Teki](https://www.linkedin.com/in/felipeteki/)**
+| Matriz Baseline (2024) | Matriz Otimizada (v2 - 2026) |
+| :---: | :---: |
+| ![v1 Baseline](./confusion_matrix_v1_baseline.png) | ![v2 Optimized](./confusion_matrix_v2_optimized.png) |
+
+> **Análise Técnica:** A versão atual (v2) atingiu **91.87% de F
