@@ -28,6 +28,10 @@ Professional machine learning pipeline developed for the **1st National Artifici
     python desafiooniafinalizado.py
     ```
 
+## 🧠 Technical Evolution & Comparison
+This repository documents the evolution from simple linear models to complex **Stacking** architectures. 
+> **Note:** The file regarding the **1st Confusion Matrix generated in 2024** is included for comparative purposes, showcasing the performance gains achieved through current optimizations.
+
 ---
 
 # Classificação de Exoplanetas - ONIA 2024 🪐🚀
@@ -56,8 +60,11 @@ Pipeline profissional de Machine Learning desenvolvido para a **1ª Olimpíada N
     python desafiooniafinalizado.py
     ```
 
-## 🧠 Evolução Técnica e Carreira
-Este repositório documenta a evolução de modelos lineares simples para arquiteturas complexas de **Stacking**. A escolha por algoritmos de estado da arte (XGBoost/LightGBM) e o rigor no tratamento estatístico dos dados refletem o meu compromisso com a excelência técnica e o desenvolvimento contínuo na área da computação.
+## 🧠 Evolução Técnica e Comparação
+Este repositório documenta a evolução de modelos lineares simples para arquiteturas complexas de **Stacking**. 
+> **Nota:** O arquivo da **1ª Matriz de Confusão gerada em 2024** foi mantido no repositório apenas para fins de comparação, permitindo visualizar a melhoria de performance obtida com as otimizações atuais.
+
+
 
 ---
 **Developed by [Felipe Teki](https://www.linkedin.com/in/felipeteki/)**
