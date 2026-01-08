@@ -1,3 +1,35 @@
+# Exoplanet Classification - ONIA 2024 🪐🚀
+
+*(Português abaixo)*
+
+Professional machine learning pipeline developed for the **1st National Artificial Intelligence Olympiad (ONIA)**. This project implements advanced ensemble techniques and data balancing to classify habitability metrics in unknown planetary systems.
+
+## 🛠️ Technical Stack & Advanced Methods
+* **Core:** Python, Pandas, Numpy.
+* **Visualization:** Matplotlib, Seaborn.
+* **Machine Learning:** Scikit-Learn, XGBoost, LightGBM.
+* **Class Imbalance:** Applied **SMOTE** (Synthetic Minority Over-sampling Technique) to ensure model fairness.
+* **Model Architecture:** **Stacking Classifier** (Ensemble) combining:
+    * Random Forest & SVM (Radial Basis Function).
+    * XGBoost & LightGBM (Gradient Boosting).
+    * Multi-layer Perceptron (Neural Network).
+* **Hyperparameter Tuning:** Optimized via **GridSearchCV** with 5-fold Cross-Validation.
+* **Software Engineering:** Implementation of dynamic path handling (`os` library) for cross-environment portability.
+
+## 🚀 How to Run
+1. Clone this repository.
+2. Ensure `treino.csv` and `teste.csv` are in the same directory as the script.
+3. Install the complete dependency list:
+    ```bash
+    pip install -r requirements.txt
+    ```
+4. Run the main script:
+    ```bash
+    python desafiooniafinalizado.py
+    ```
+
+---
+
 # Classificação de Exoplanetas - ONIA 2024 🪐🚀
 
 Pipeline profissional de Machine Learning desenvolvido para a **1ª Olimpíada Nacional de Inteligência Artificial (ONIA)**. O projeto implementa técnicas avançadas de ensemble e balanceamento de dados para classificação de métricas de habitabilidade em sistemas planetários desconhecidos.
