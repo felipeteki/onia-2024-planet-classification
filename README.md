@@ -57,7 +57,7 @@ Pipeline profissional de Machine Learning desenvolvido para a **1ª Olimpíada N
     ```
 
 ## 🧠 Evolução Técnica e Carreira
-Este repositório documenta a evolução de modelos lineares simples para arquiteturas complexas de **Stacking**. A escolha por algoritmos de estado da arte (XGBoost/LightGBM) e o rigor no tratamento estatístico dos dados refletem meu compromisso com a excelência técnica na minha trajetória na **Engenharia da Computação**.
+Este repositório documenta a evolução de modelos lineares simples para arquiteturas complexas de **Stacking**. A escolha por algoritmos de estado da arte (XGBoost/LightGBM) e o rigor no tratamento estatístico dos dados refletem o meu compromisso com a excelência técnica e o desenvolvimento contínuo na área da computação.
 
 ---
-**Developed by [Felipe Teki](https://www.linkedin.com/in/felipeteki/)** *Aspiring Software Engineer | Java & Python Enthusiast*
+**Developed by [Felipe Teki](https://www.linkedin.com/in/felipeteki/)**
