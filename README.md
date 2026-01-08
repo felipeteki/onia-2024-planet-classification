@@ -31,7 +31,13 @@ Professional machine learning pipeline developed for the **1st National Artifici
 
 ## 🧠 Technical Evolution & Comparison
 This repository documents the evolution from simple linear models to complex architectures. 
-> **Note:** The file regarding the **1st Confusion Matrix generated in 2024** is included for comparative purposes, showcasing the performance gains (up to **91.87%**) achieved through current optimizations compared to the baseline.
+
+### Model Improvement (v1 vs v2)
+| Baseline Matrix (2024) | Optimized Matrix (v2 - 2026) |
+| :---: | :---: |
+| ![v1 Baseline](./confusion_matrix_v1_baseline.png) | ![v2 Optimized](./confusion_matrix_v2_optimized.png) |
+
+> **Analysis:** The current version (v2) achieved a **91.87% F1-Score**, significantly outperforming the 2024 baseline. The use of **SMOTE** corrected class imbalance, while **GridSearchCV** fine-tuned the XGBoost parameters for maximum precision in the minority classes.
 
 ---
 
@@ -46,28 +52,16 @@ Pipeline profissional de Machine Learning desenvolvido para a **1ª Olimpíada N
 
 ## 🛠️ Tecnologias e Métodos Avançados
 * **Core:** Python, Pandas, Numpy.
-* **Visualização:** Matplotlib, Seaborn.
 * **Machine Learning:** Scikit-Learn, XGBoost, LightGBM.
 * **Tratamento de Dados:** Aplicação de **SMOTE** para balanceamento de classes minoritárias e **StandardScaler** para normalização.
 * **Arquitetura do Modelo:** **Stacking Classifier** (Ensemble) e **XGBoost** de alta performance.
 * **Otimização:** Busca exaustiva de hiperparâmetros via **GridSearchCV** com Validação Cruzada (K-Fold).
-* **Engenharia de Software:** Gerenciamento dinâmico de diretórios para garantir portabilidade entre diferentes ambientes de execução.
-
-## 🚀 Como Executar
-1. Clone este repositório.
-2. Certifique-se de que os arquivos `treino.csv` e `teste.csv` estejam no mesmo diretório do script.
-3. Instale a lista completa de dependências:
-    ```bash
-    pip install -r requirements.txt
-    ```
-4. Execute o script principal:
-    ```bash
-    python desafiooniafinalizado.py
-    ```
 
 ## 🧠 Evolução Técnica e Comparação
 Este repositório documenta a evolução de modelos simples para arquiteturas robustas. 
-> **Nota:** O arquivo da **1ª Matriz de Confusão gerada em 2024** foi mantido no repositório para fins de comparação, permitindo visualizar a evolução na identificação de padrões e a melhoria de performance (atingindo **91.87%**) em relação aos testes iniciais.
+
+### Melhoria do Modelo (v1 vs v2)
+A tabela acima demonstra visualmente o ganho de performance. A **v1 (2024)** apresentava maior dispersão de erros, enquanto a **v2 (Otimizada)** concentra a grande maioria das predições na diagonal principal (acertos), atingindo o patamar de excelência técnica exigido pela ONIA.
 
 ---
 **Developed by [Felipe Teki](https://www.linkedin.com/in/felipeteki/)**
